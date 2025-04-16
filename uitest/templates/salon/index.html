@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Элегант - Салон красоты премиум класса</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.6/dist/css/uikit.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <div uk-sticky="sel-target: .uk-navbar-container;">
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="#">Элегант</a>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#masters">Мастера</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <div class="uk-navbar-item">
+                    <a class="uk-button uk-button-primary" href="#modal-book" uk-toggle>Записаться</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <div class="uk-backgroung-image@m uk-background-cover uk-background-muted uk-height-1-1 uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-padding-large" style="background-image: url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e');">
+            <div class="uk-container">
+                <div class="uk-width-1-2@s uk-padding-large">
+                    <h1 class="uk-heading-primary uk-light">Ваша красота - наша страсть</h1>
+                    <p class="uk-heading-primary uk-light">Профессиональный уход и премиум сервис в самом центре города</p>
+                    <a href="#services" class="uk-button uk-button-primary uk-button-large" uk-scroll>Наши услуги</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- О нас -->
+    <section class="uk-section uk-section-default">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-grid-child-width-1-2@m" uk-grid>
+                <div>
+                    <h2 class="uk-heading-divider">Салон красоты "Элегант"</h2>
+                    <p class="uk-text-lead">Мы создаем красоту с 2010 года, предлагая клиентам только лучшие услуги и продукты.</p>
+                    <p>Наш салон - это место, где каждая деталь продумана для вашего комфорта. Мы используем только профессиональную косметику премиальных брендов и самое современное оборудование.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
